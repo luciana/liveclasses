@@ -31,7 +31,7 @@ amplify/backend/awscloudformation
 build/
 dist/
 node_modules/
-aws-exports.js
+#aws-exports.js im only deploying the front end with amplify
 awsconfiguration.json
 amplifyconfiguration.json
 amplify-build-config.json
