@@ -11,13 +11,13 @@ import HomePage from './Pages/HomePage'
 
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <Switch>
           <Route path="/" exact component={HomePage}/>
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 
