@@ -19,8 +19,8 @@ const useStyle = makeStyles( theme => ({
     alignItems: "center",
     justifyContent: "space-between",
     "& img": {
-      width: "21%",
-      height: "49%"
+      width: "15vw",
+      height: "5vh"
 
     },
     "& .MuiButton-root":{

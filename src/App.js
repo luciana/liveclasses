@@ -15,6 +15,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" exact component={HomePage}/>
+          <Route path="/not" exact component={HomePage}/>
         </Switch>
       </Router>
     </div>
