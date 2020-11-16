@@ -22,7 +22,6 @@ const useStyle = makeStyles( theme => ({
     display: "flex",
     flexDirection: "row",
     justifyContent: 'center',
-    maxWidth: "60vw",
   },
   bottomPos:{
     position: "absolute",
@@ -44,18 +43,6 @@ export default function HomePage() {
   return (
       <div className={styles.root}>
         <Header className={styles.header} />
-        <ul>
-            <li>
-                <Link to="/not">
-                <span>Not on</span>
-                </Link>
-            </li>
-            <li>
-                <Link to="/">
-                <span>on</span>
-                </Link>
-            </li>
-          </ul>
         <div className={styles.content}> 
           {location.pathname == '/' && (
             <LadingPage/>
